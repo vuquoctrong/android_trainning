@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">android_trainning</string>
+    <string name="smaller"><![CDATA[<]]></string>
+    <string name="bigger"><![CDATA[>]]></string>
 </resources>

@@ -1,18 +1,318 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/tvData"
+        android:layout_marginTop="48dp"
+        android:textSize="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:shrinkColumns="*">
 
-</android.support.constraint.ConstraintLayout>
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn1"
+                android:text="1"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:text="2"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:text="3"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:text="4"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:text="5"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:text="6"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:text="7"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:text="8"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:text="9"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btn0"
+                android:text="0"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnQ"
+                android:text="Q"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnW"
+                android:text="W"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnE"
+                android:text="E"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnR"
+                android:text="R"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnT"
+                android:text="T"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnY"
+                android:text="Y"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnU"
+                android:text="U"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnI"
+                android:text="I"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnO"
+                android:text="O"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnP"
+                android:text="P"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnA"
+                android:text="A"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnS"
+                android:text="S"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnD"
+                android:text="D"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnF"
+                android:text="F"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnG"
+                android:text="G"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnH"
+                android:text="H"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnJ"
+                android:text="J"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnK"
+                android:text="K"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnL"
+                android:text="L"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnSmaller"
+                android:text="@string/smaller"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnZ"
+                android:text="Z"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnX"
+                android:text="X"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnC"
+                android:text="C"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnV"
+                android:text="V"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnB"
+                android:text="B"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnN"
+                android:text="N"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnM"
+                android:text="M"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnBigger"
+                android:text="@string/bigger"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+            <Button
+                android:id="@+id/btnDEL"
+                android:layout_span="2"
+                android:text="DEL"
+                android:background="@color/btnColor"
+                android:textSize="@dimen/sp_24" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnUp"
+                android:layout_column="4"
+                android:layout_span="2"
+                android:text="UP"
+                android:background="@color/btnColor"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnLeft"
+                android:layout_column="2"
+                android:layout_span="2"
+                android:text="LEFT"
+                android:background="@color/btnColor"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnEnter"
+                android:layout_span="2"
+                android:text="ENTER"
+                android:background="@color/btnColor"
+                android:textSize="18sp" />
+
+            <Button
+
+                android:id="@+id/btnRight"
+                android:layout_span="2"
+                android:text="RIGHT"
+                android:background="@color/btnColor"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnDown"
+                android:layout_column="4"
+                android:layout_span="2"
+                android:text="DOWN"
+                android:background="@color/btnColor"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
+
