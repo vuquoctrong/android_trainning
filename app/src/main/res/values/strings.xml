@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">android_trainning</string>
+
+    <string name="dialog_check_title">Pick your toppings</string>
+    <string name="dialog_check_1">Onion</string>
+    <string name="dialog_check_2">Lettuce</string>
+    <string name="dialog_check_3">Tomato</string>
+    <string name="dialog_brightcontent">Automatic brightness</string>
+
 </resources>
